@@ -31,7 +31,7 @@ class Main {
    for (int i = 0; i < arr.length; i++) {
       if (arr[i] == target) {
        System.out.println("Found");
-        while (i < arr.length - 1) {
+        while (i < size-1) {
           arr[i] = arr[i + 1];
           i++;
         }
